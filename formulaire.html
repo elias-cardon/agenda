@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="agenda.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Nouvel événement</h1>
+	<form action="#">
+  		<fieldset>
+  			<legend>Informations principales</legend>
+  			<label for="pseudo">Ajouter un titre</label>
+     		<input id="pseudo" placeholder="Ajouter un titre" autofocus="" required=""><br>
+     		<label for="start">Date de début</label>
+			<input type="date" id="start" name="trip-start" min="01-01-1945" max="2100-12-31"> <br/>
+			 <label for="start">Date de fin</label>
+			<input type="date" id="start" name="trip-start" min="01-01-1945" max="2100-12-31"> <br/>
+			<label for="appt">Heure début:</label>
+			<input type="time" id="appt" name="appt" min="00:00" max="23:59" required> <br/>
+			<label for="appt">Heure fin:</label>
+			<input type="time" id="appt" name="appt" min="00:00" max="23:59" required> <br/>
+  		</fieldset>
+  		<fieldset>
+  			<legend>Plus</legend>
+  			<label for="descritpion">Description</label><br/>
+  			<textarea id="msg" name="descritpion"></textarea> <br/>
+  		</fieldset>
+  		<p><a href="agenda.html"><input type="button" value="Soummettre"></a></p>
+  		<p><input type="reset" value="Annuler"></p>
+	</form>
+</body>
+</html>
