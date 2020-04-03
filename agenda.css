@@ -33,6 +33,11 @@ tr {
     padding: 10px;
 }
 
+th
+{
+  background-color: #656BCA;
+}
+
 #Avril
 {
   background-color: cadetblue;
