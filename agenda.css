@@ -21,9 +21,9 @@ main
 }
 /*agenda*/
 table {
-    border-collapse: collapse;
-    margin: auto;
-    text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
 }
 
 th,
