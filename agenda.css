@@ -8,6 +8,13 @@
 body
 {
 	background: linear-gradient(45deg, #99A7ED, #566EE7 ,#CD5C5C);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html
+{
+  height: 100%;
 }
 
 header
